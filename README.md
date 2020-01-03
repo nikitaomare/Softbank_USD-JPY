@@ -1,0 +1,1 @@
+# Softbank_USD-JPY
