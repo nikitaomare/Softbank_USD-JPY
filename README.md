@@ -11,9 +11,9 @@ Missing values are handled and training data was divided into target and X. Trai
 Different ensemble models were tried including XGBRegressor, GradientBoostingRegressor, RandomForestRegressor, ExtraTreesRegressor, lightgbm are used. Voting regressor was also used to get a better prediction.
 Bayesian optimization for automated hyperparameter tuning was used by using hyperopt library.
 
-## Best Model = ExtraTreesRegressor(n_estimators=500,random_state=1234)
+**Best Model = ExtraTreesRegressor(n_estimators=500,random_state=1234)**
 
-final_lstm: set of hidden state of text feature of all id’s
-traineco_lstm: combined data of final_lstm and given train
-testeco_lstm: combined data of final_lstm and test data
+final_lstm: set of hidden state of text feature of all id’s 
+<br/> traineco_lstm: combined data of final_lstm and given train<br/>
+testeco_lstm: combined data of final_lstm and test data<br/>
 extra_tree_500_bestmodel: best submission model acc-> 0.98098
